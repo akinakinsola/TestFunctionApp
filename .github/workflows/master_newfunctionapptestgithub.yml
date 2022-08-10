@@ -39,4 +39,4 @@ jobs:
           app-name: 'NewFunctionAppTestGitHub'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E449D4BB498C415290EA34A98ED0F799 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3844A1FAD1734B609BE3B8FC62D3FD2B }}
